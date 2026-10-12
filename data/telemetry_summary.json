@@ -1,0 +1,33 @@
+{
+  "iterations": 5,
+  "engine_a": {
+    "p50_ms": 852.76,
+    "p90_ms": 868.76,
+    "p99_ms": 868.76,
+    "mean_ms": 857.92,
+    "qps": 1.17,
+    "keys_read": 50000,
+    "bytes_scanned_mb": 54.39
+  },
+  "engine_b": {
+    "p50_ms": 0.59,
+    "p90_ms": 1.2,
+    "p99_ms": 1.2,
+    "mean_ms": 0.71,
+    "qps": 1408.45,
+    "keys_read": 22,
+    "bytes_scanned_mb": 0.9
+  },
+  "writes": {
+    "shared_key_abort_pct": 92.0,
+    "shared_key_wps": 879.6,
+    "isolated_uuid_abort_pct": 0.0,
+    "isolated_uuid_wps": 28169.01
+  },
+  "storage": {
+    "raw_dataset_mb": 58.39,
+    "engine_a_bytes_mb": 54.39,
+    "secondary_index_mb": 3.05,
+    "index_overhead_pct": 5.22
+  }
+}
